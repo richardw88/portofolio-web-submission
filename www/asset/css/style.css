@@ -55,7 +55,7 @@ body {
   .column {     /* the columns */
     float: left;
     padding: 10px;
-    height: 300px; 
+ 
   }
   
   .left {
@@ -87,8 +87,9 @@ body {
   
    /* find me start */
    .kontak-img {
+ 
     width: 80px;
-    padding-top: 5px;
+   
     text-align: center;
     position: center;
     object-position: center;
@@ -103,8 +104,10 @@ body {
   .column{
         width: 100%;
         padding: 0;
+        
     }
  }
+
 
  /* responsive web end */
 
