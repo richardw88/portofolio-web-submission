@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+/* header */
+ .header {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    height: 10px;
+    background: #6f80eb;
+    font-size: 20px;
+  }
+
+ .text{
+    text-align: center;
+    margin-top: -30px;
+    color: white;
+ } 
+ /* end header */
+
+ /* jumbotron */
+.jumbotron { 
+    padding: 80px; 
+    background-color: #393939;
+  }
+
+  .jumbotron img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 100%;
+  }
+  .jumbotron h3 { 
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+  }
+  .jumbotron p { 
+    text-align: center;
+    margin-top: -10px;
+    color: white;
+  }
+ /* end jumbotron */
+  
+/* border box */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {     /* the columns */
+    float: left;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  .left {
+    width: 50%;
+  }
+
+  .rata-kiri{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .justify{
+    text-align: justify;
+  }
+
+  hr{
+    color: white;
+  
+  }
+
+  .spasi{
+    word-spacing: 10px;
+  }
+
+  .right {
+    width: 50%;
+  }
+   /* end borderbox */
+  
+   /* find me start */
+   .kontak-img {
+    width: 80px;
+    padding-top: 5px;
+    text-align: center;
+    position: center;
+    object-position: center;
+
+      /* find me end */
+ 
+ }
+
+/* responsive web */
+
+ @media screen and (max-width: 1000px) {    
+  .column{
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+ /* responsive web end */
+
+
+
+
+  
